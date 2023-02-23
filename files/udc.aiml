@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+      <pattern>HI</pattern>
+      <template>Hello World!</template>
+  </category>
+  
+  <category>
+      <pattern>Who are you?</pattern>
+      <template>I am lucian bot, a language model created by Biolan Lucian. I am designed to assist with various tasks such as answering questions, providing information.</template>
+  </category>
+  
+  <category>
+    <pattern>DO YOU KNOW WHO * IS</pattern>
+    <template><srai>WHO IS <star/></srai></template>
+</category>
+  
+</aiml>
